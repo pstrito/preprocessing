@@ -1,0 +1,18 @@
+finviz output columns:
+ticker,date,time,title,Sentiment
+
+stocktwits parser output columsn:
+symbol,messageID ,created_at,body,followers,sentiment,date,time
+
+ticker = symbol
+title = body
+Sentiment = sentiment
+date = date
+time = time
+
+"messageID", "created_at", "followers" do not exist in scraped finviz csv 
+
+approach: give the user two different options for different input files. One option is for stocktwits and the other option if for finviz.
+
+
+
